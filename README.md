@@ -21,7 +21,7 @@
 > 개발에 사용한 도구들!  
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)  
-![Fastlane](https://img.shields.io/badge/Fastlane-%F0%9F%8C%88-EC0045?style=for-the-badge&labelColor=FBB040&color=34A65F&logo=fastlane&logoColor=white)
+![Fastlane](https://img.shields.io/badge/Fastlane-4682B4?style=for-the-badge&logo=fastlane&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)  
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
 ![SVN](https://img.shields.io/badge/Subversion-809CC9?style=for-the-badge&logo=subversion&logoColor=white)  
