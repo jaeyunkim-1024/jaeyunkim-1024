@@ -49,7 +49,7 @@
 ## 💻 그외 Tech
 > 프로젝트에 활용해 본 주요 언어들입니다.  
 
-![EgovFramework](https://img.shields.io/badge/%EC%A0%84%EC%9E%90%EC%A0%95%EB%B6%80%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%83-1572B6?style=for-the-badge&logo=java&logoColor=white)  
+![EgovFramework](https://img.shields.io/badge/EgovFramework-1572B6?style=for-the-badge&logo=java&logoColor=white)
 ![PHP (CodeIgniter)](https://img.shields.io/badge/PHP(CodeIgniter)-777BB4?style=for-the-badge&logo=php&logoColor=white)  
 
 ---
