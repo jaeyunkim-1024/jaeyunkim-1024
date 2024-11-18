@@ -21,24 +21,36 @@
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ---
 
-## 💻 사용해본 언어
-> 프로젝트에 활용해 본 주요 언어들입니다.  
-
-![전자정부프레임워크](https://img.shields.io/badge/%EC%A0%84%EC%9E%90%EC%A0%95%EB%B6%80%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%83-1572B6?style=for-the-badge&logo=java&logoColor=white)  
-![PHP (CodeIgniter)](https://img.shields.io/badge/PHP(CodeIgniter)-777BB4?style=for-the-badge&logo=php&logoColor=white)  
-
----
-
-## 🗄️ 사용해본 DB
-> 데이터를 다룰 때 사용했던 데이터베이스들입니다.  
+## 🗄️ DataBase
+> 프로젝트에 사용했던 데이터베이스들입니다.  
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)  
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)  
+![Aurora](https://img.shields.io/badge/Aurora-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)  
+![Redshift](https://img.shields.io/badge/Redshift-8C4FF0?style=for-the-badge&logo=amazonredshift&logoColor=white)
+
+---
+
+## ☁️ AWS
+> 프로젝트에서 활용한 AWS 서비스들입니다.  
+
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)  
+![S3](https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)  
+![API Gateway](https://img.shields.io/badge/API_Gateway-FF4F8B?style=for-the-badge&logo=amazonapigateway&logoColor=white)  
+![CloudFront](https://img.shields.io/badge/CloudFront-30597F?style=for-the-badge&logo=amazoncloudfront&logoColor=white)  
+![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)  
+
+---
+
+## 💻 그외 Tech
+> 프로젝트에 활용해 본 주요 언어들입니다.  
+
+![전자정부프레임워크](https://img.shields.io/badge/%EC%A0%84%EC%9E%90%EC%A0%95%EB%B6%80%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%83-1572B6?style=for-the-badge&logo=java&logoColor=white)  
+![PHP (CodeIgniter)](https://img.shields.io/badge/PHP(CodeIgniter)-777BB4?style=for-the-badge&logo=php&logoColor=white)  
 
 ---
 
