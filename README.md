@@ -1,4 +1,4 @@
-## Hi there 👋
+## 재윤의 GitHub 👋
 
 <!--
 **jaeyunkim-1024/jaeyunkim-1024** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
