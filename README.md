@@ -1,5 +1,7 @@
 ## 🧑‍💻 재윤의 GitHub 🌈
-<img src="https://img.shields.io/badge/any_text-you_like-blue" />
+
+# Tech #
+<img src="https://img.shields.io/badge/any_text-you_like" />
 <!--
 **jaeyunkim-1024/jaeyunkim-1024** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
