@@ -7,7 +7,7 @@
 ---
 
 ## 📚 Tech
-> 제가 주로 사용하는 기술 스택이에요!  
+> 주로 사용하는 기술 스택
 
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)  
 ![Spring Framework](https://img.shields.io/badge/SpringFramework-6DB33F?style=for-the-badge&logo=spring&logoColor=white)  
@@ -17,7 +17,7 @@
 ---
 
 ## 🛠️ Etc
-> 개발에 사용한 다양한 도구들!  
+> 개발에 사용한 도구들!  
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)  
 ![Fastlane](https://img.shields.io/badge/Fastlane-00F200?style=for-the-badge&logo=fastlane&logoColor=white)  
