@@ -15,8 +15,8 @@
 > 제가 맡아온 주요 역할과 업무들입니다.  
 
 - **백엔드 개발 및 서버배포**: Spring 기반(SpringBoot,SpringFramework) 백엔드 개발(이커머스 - 회원,포인트,쿠폰) , Bamboo 이용한 서버 배포 및 설정
-- **앱 CI/CD 구축 및 자동화**: Jenkins, Python, Fastlane 등 도구를 활용한 앱 배포 자동화  
-- **앱 개발**: Flutter를 이용한 크로스 플랫폼 모바일 앱 개발  ( https://www.notion.so/GSSHOP-CI-CD-1436de4f49108013a9a3efd2ad2b4e7f?pvs=4 )
+- **앱 CI/CD 구축 및 자동화**: Jenkins, Python, Fastlane 등 도구를 활용한 앱 배포 자동화  ( https://www.notion.so/GSSHOP-CI-CD-1436de4f49108013a9a3efd2ad2b4e7f?pvs=4 )
+- **앱 개발**: Flutter를 이용한 크로스 플랫폼 모바일 앱 개발
 
 ---
 
