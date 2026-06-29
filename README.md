@@ -38,8 +38,6 @@
 | 운영·품질 | Datadog·SignOz 모니터링, OTel 데몬 중계, Read/Write 분리·파티셔닝·Heap 튜닝 | — |
 | E2E 자동화 | Playwright로 실제 API·프런트 이미지 기동 E2E + Fastify/React 대시보드 | — |
 
-> 표의 `NOTION_URL`을 실제 Notion 다이어그램 주소로 교체하세요.
-
 ### 기술 스택
 `Kotlin` · `Spring Boot` · `Spring Security` · `JPA(Hibernate)` · `MySQL` · `Redis(Lua)` · `AWS ECS/EC2/SQS` · `GitHub Actions` · `Datadog` · `SignOz` · `Firebase` · `Liquibase`
 
