@@ -30,11 +30,11 @@
 ### 🏆 주요 성과
 | 영역 | 요약 | 설계 |
 |---|---|---|
-| 멀티 PG 결제·구독 | Apple/Google IAP + Toss/Stripe, SQS 비동기·FIFO 멱등으로 재화 이중 지급 방지 | [Shop 결제 플로우](NOTION_URL) |
-| 플래시 세일 동시성 | DB Row Lock → Redis + Lua 원자 연산, 운영 2,441개 옵션 재고 정합성 + 회귀 테스트 | [Shop 결제 플로우](NOTION_URL) |
+| 멀티 PG 결제·구독 | Apple/Google IAP + Toss/Stripe, SQS 비동기·FIFO 멱등으로 재화 이중 지급 방지 | [Shop 결제 플로우](https://app.notion.com/p/Shop-38e6de4f49108041bb79faf5e5b53505?source=copy_link) |
+| 플래시 세일 동시성 | DB Row Lock → Redis + Lua 원자 연산, 운영 2,441개 옵션 재고 정합성 + 회귀 테스트 | [Shop 결제 플로우](https://app.notion.com/p/Shop-38e6de4f49108041bb79faf5e5b53505?source=copy_link) |
 | 홈 API 성능 | Coroutine 병렬 + Redis 캐시 — 7~ 9초 → p50 63ms (약 110~140배, APM 실측) | — |
-| 실시간 투표 | Redis INCR + Lua 실시간 카운터, Race Condition 제거 + Throttling 중복 방지 | [투표 플로우](NOTION_URL) |
-| 인증·보안 | JWT Access/Refresh + Hexagonal RefreshToken 저장소 분리, APP/WEB 세션 분리, 로그인 실패·IP 차단 | [인증 플로우(토큰·로그인·이메일)](NOTION_URL) |
+| 실시간 투표 | Redis INCR + Lua 실시간 카운터, Race Condition 제거 + Throttling 중복 방지 | [투표 플로우](https://app.notion.com/p/38e6de4f4910806685fcf305146c66e3?source=copy_link) |
+| 인증·보안 | JWT Access/Refresh + Hexagonal RefreshToken 저장소 분리, APP/WEB 세션 분리, 로그인 실패·IP 차단 | [인증 플로우(토큰·로그인·이메일)](https://app.notion.com/p/38e6de4f491080358abfc900464bbc0d?source=copy_link) |
 | 운영 아키텍처 | Kafka → SQS 재정립(무중단 전환), 멀티모듈 SQS Listener 분리 | — |
 | 운영·품질 | Datadog·SignOz 모니터링, OTel 데몬 중계, Read/Write 분리·파티셔닝·Heap 튜닝 | — |
 | E2E 자동화 *(진행 중)* | Playwright로 실제 API·프런트 이미지 기동 E2E + Fastify/React 대시보드 | — |
