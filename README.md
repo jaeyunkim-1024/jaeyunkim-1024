@@ -10,6 +10,41 @@
 - [20.03 ~ 20.11][Back-End]삼성닷컴 개발(회원,배송카트리지 API 개발 )
 - [19.07 ~ 19.12][Back-End]서울 시청 음성 인식 회의록 웹 플랫폼 개발
 
+---
+
+## 🎤 현재 — Kooky · 글로벌 K-pop 플랫폼 Backend (2025.01 ~)
+> Kotlin/Spring Boot 기반 결제·구독·커머스·투표·펀딩 도메인 개발 및 AWS 운영.
+> 📂 **상세 설계 다이어그램은 Notion에서 →** [설계 다이어그램 모음](NOTION_URL)
+
+### 주요 업무
+- 결제·구독(IAP), 커머스, 투표, 펀딩 등 핵심 도메인 개발 및 운영
+- AWS ECS 운영 · GitHub Actions 기반 CI/CD 구성
+- Redis/MySQL 기반 성능 개선, 동시성 제어, 운영 안정화
+
+### 🤖 AI 활용 — 개발 파이프라인 자동화 (Claude Code 커스텀 스킬 15종+)
+- 기획 → 구현 → 리뷰 → 배포 → 운영 전 과정을 커스텀 스킬로 자동화 (Notion/Jira/GitHub/Slack 연계)
+- 구현 모델(Claude)과 리뷰 모델(Codex)을 분리한 **교차 모델 코드 리뷰**로 단일 모델 편향 감소
+- git worktree 형상 분리 + Detekt + 변경 전후 비교까지 자동화, 코드 작성 전 confirm으로 오구현 방지
+- LLM의 추측·환각·컨텍스트 유실을 줄이는 검증 중심 워크플로 + 모든 작업의 Markdown 산출물화로 추적성·재현성 확보
+
+### 🏆 주요 성과
+| 영역 | 요약 | 설계 |
+|---|---|---|
+| 멀티 PG 결제·구독 | Apple/Google IAP + Toss/Stripe, SQS 비동기·FIFO 멱등으로 재화 이중 지급 방지 | [Shop 결제 플로우](NOTION_URL) |
+| 플래시 세일 동시성 | DB Row Lock → Redis + Lua 원자 연산, 운영 2,441개 옵션 재고 정합성 + 회귀 테스트 | [Shop 결제 플로우](NOTION_URL) |
+| 홈 API 성능 | Coroutine 병렬 + Redis 캐시 — 7~ 9초 → p50 63ms (약 110~140배, APM 실측) | — |
+| 실시간 투표 | Redis INCR + Lua 실시간 카운터, Race Condition 제거 + Throttling 중복 방지 | [투표 플로우](NOTION_URL) |
+| 인증·보안 | JWT Access/Refresh + Hexagonal RefreshToken 저장소 분리, APP/WEB 세션 분리, 로그인 실패·IP 차단 | [인증 플로우(토큰·로그인·이메일)](NOTION_URL) |
+| 운영 아키텍처 | Kafka → SQS 재정립(무중단 전환), 멀티모듈 SQS Listener 분리 | — |
+| 운영·품질 | Datadog·SignOz 모니터링, OTel 데몬 중계, Read/Write 분리·파티셔닝·Heap 튜닝 | — |
+| E2E 자동화 *(진행 중)* | Playwright로 실제 API·프런트 이미지 기동 E2E + Fastify/React 대시보드 | — |
+
+> 표의 `NOTION_URL`을 실제 Notion 다이어그램 주소로 교체하세요.
+
+### 기술 스택
+`Kotlin` · `Spring Boot` · `Spring Security` · `JPA(Hibernate)` · `MySQL` · `Redis(Lua)` · `AWS ECS/EC2/SQS` · `GitHub Actions` · `Datadog` · `SignOz` · `Firebase` · `Liquibase`
+
+---
 
 ## 🏆 주요 업무 및 포지션
 > 제가 맡아온 주요 역할과 업무들입니다.  
@@ -23,6 +58,7 @@
 ## 📚 Tech
 > 주로 사용하는 기술 스택
 
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)  
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)  
 ![Spring Framework](https://img.shields.io/badge/SpringFramework-6DB33F?style=for-the-badge&logo=spring&logoColor=white)  
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)  
