@@ -36,7 +36,7 @@
 | 인증·보안 | JWT Access/Refresh + Hexagonal RefreshToken 저장소 분리, APP/WEB 세션 분리, 로그인 실패·IP 차단 | [인증 플로우(토큰·로그인·이메일)](https://app.notion.com/p/38e6de4f491080358abfc900464bbc0d?source=copy_link) |
 | 운영 아키텍처 | Kafka → SQS 재정립(무중단 전환), 멀티모듈 SQS Listener 분리 | — |
 | 운영·품질 | Datadog·SignOz 모니터링, OTel 데몬 중계, Read/Write 분리·파티셔닝·Heap 튜닝 | — |
-| E2E 자동화 *(진행 중)* | Playwright로 실제 API·프런트 이미지 기동 E2E + Fastify/React 대시보드 | — |
+| E2E 자동화 | Playwright로 실제 API·프런트 이미지 기동 E2E + Fastify/React 대시보드 | — |
 
 > 표의 `NOTION_URL`을 실제 Notion 다이어그램 주소로 교체하세요.
 
