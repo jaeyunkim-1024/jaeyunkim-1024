@@ -13,6 +13,10 @@
 ---
 
 ## AI 활용 지도
+- claude,codex 를 이용하여 사내 프로세스와 개발 방법론을 고려한 저만의 오케스트레이션 만들어 개발하고 있습니다.
+- 아래는 제가 어떤 산출물을 어떤 스킬을 이용하여 도출하고, ai를 이용하여 어떻게 개발을 하는지 작성한 개발 지도입니다.
+- 그외 기존 디자인 시스템을 claude.design에 넣어(figma -> 플러그인으로 연동 혹은 html로 EXPORT 후) 앱개발 경험을 살려 디자인부터 개발을 ai와 함께 진행
+- ai한테 시키지만 반복적인 업무(토큰 사용)등은 로컬 혹은 사내 인프라에 구축(대표적: 사내 앱 repo를 fastlane이용한 반자동 배포 대시보드 - 심사 버튼은 내가 직접.)
 <img width="1320" height="4954" alt="dev-skill-map" src="https://github.com/user-attachments/assets/cce6d61c-9a1e-4f14-860c-f4bf1f3ae312" />
 ---
 
