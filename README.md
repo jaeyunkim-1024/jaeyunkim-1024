@@ -12,6 +12,10 @@
 
 ---
 
+## AI 활용 지도
+<img width="1320" height="4954" alt="dev-skill-map" src="https://github.com/user-attachments/assets/cce6d61c-9a1e-4f14-860c-f4bf1f3ae312" />
+---
+
 ## 🎤 현재 — Kooky · 글로벌 K-pop 플랫폼 Backend (2025.01 ~)
 > Kotlin/Spring Boot 기반 결제·구독·커머스·투표·펀딩 도메인 개발 및 AWS 운영.
 
@@ -115,7 +119,6 @@
 ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)  
 ![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)  
 
----
 
 🌈 **감사합니다**  
 
